@@ -1,0 +1,2 @@
+# namaz-timings
+namaz-timings
