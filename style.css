@@ -1,0 +1,82 @@
+body {
+    background-image: url('https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #1a2a47; /* Fallback color */
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#app-container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+#header {
+    margin-bottom: 20px;
+}
+
+#header h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+#header p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+#namaz-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #ffffff;
+}
+
+th, td {
+    border: 1px solid #ffffff;
+    padding: 15px;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: center;
+}
+
+th {
+    background-color: transparent;
+}
+
+td[contenteditable="true"] {
+    cursor: pointer;
+}
+
+#footer {
+    margin-top: 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+#footer p {
+    margin: 5px 0;
+}
+
+#share-btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

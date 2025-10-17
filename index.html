@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaz Timings</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div id="app-container">
+        <div id="header">
+            <h1>Namaz Timings Hyderabad, India</h1>
+            <p id="hijri-date" contenteditable="true">22 Rabi' al-awwal 1447</p>
+            <p id="georgian-date">Sunday, 14-Sep-2025</p>
+        </div>
+
+        <table id="namaz-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Start</th>
+                    <th>End</th>
+                    <th>نماز</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fajr</td>
+                    <td contenteditable="true">5:04</td>
+                    <td contenteditable="true">6:04</td>
+                    <td>فجر</td>
+                </tr>
+                <tr>
+                    <td>Dhuhr</td>
+                    <td contenteditable="true">12:12</td>
+                    <td contenteditable="true">3:34</td>
+                    <td>ظهر</td>
+                </tr>
+                <tr>
+                    <td>Asr</td>
+                    <td contenteditable="true">3:34</td>
+                    <td contenteditable="true">6:19</td>
+                    <td>عصر</td>
+                </tr>
+                <tr>
+                    <td>Maghrib</td>
+                    <td contenteditable="true">6:19</td>
+                    <td contenteditable="true">7:19</td>
+                    <td>مغرب</td>
+                </tr>
+                <tr>
+                    <td>Isha</td>
+                    <td contenteditable="true">7:19</td>
+                    <td contenteditable="true">5:04</td>
+                    <td>عشاء</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div id="footer">
+            <p>May Allah Accept Our Prayers</p>
+            <p>Allahu Akbar!</p>
+        </div>
+    </div>
+    <button id="share-btn">Share as Image</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
